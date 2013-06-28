@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Special thanks to Brother Leebert for his help in translation -->
+    
+    <!-- PriesthoodOrdinances Manifest -->
+    <string name="app_name">LDS Ordenanzas</string>
+    
+    <!-- Titles used in MainMenu -->
+    <string name="AnointingOil">Ungir con aceite</string>
+    <string name="SealingAnointing">Sellar la unción</string>
+    <string name="ConsecratingOil">Consagrar aceite</string>
+    <string name="ConferringPriesthood">Conferir el sacerdocio y oficio</string>
+    <string name="SettingApart">Apartar a oficiales y a maestros</string>
+	<string name="FatherBlessing">Bendiciones de consuelo y de consejo</string>
+	<string name="NamingChildren">Nombre y bendecir a un niño pequeño</string>
+	<string name="Baptism">Bautismo</string>
+	<string name="Confirmation">confirmación</string>
+	<string name="Sacrament">Santa Cena</string>
+	<string name="DedicatingHomes">Dedicar hogares</string>
+	<string name="DedicatingGraves">Dedicar sepulturas</string>
+    
+	
+	<!-- Text used to fill content in blessings.xml and Ordinance.java -->
+    <string name="anointing_oil">
+        <![CDATA[
+        
+        	<p><b>Ungir con aceite</b></p>
+        
+	        <p>La unción la lleva a cabo un poseedor del Sacerdocio de Melquisedec. Él:</p>
+			
+			<b>1.</b> Pone una gota de aceite consagrado sobre la cabeza de la persona.<br />
+			<b>2.</b> Coloca las manos levemente sobre la cabeza de la persona y la llama por su nombre completo.<br />
+			<b>3.</b> Declara que actúa por la autoridad del Sacerdocio de Melquisedec.<br />
+			<b>4.</b> Declara que está ungiendo con aceite que ha sido consagrado para la unción y bendición de los enfermos y los afligidos.<br />
+			<b>5.</b> Termina en el nombre de Jesucristo.
+			
+
+        	<p><b>Bendecir a los enfermos</b></p>
+			
+			<p>Solamente los poseedores del Sacerdocio de Melquisedec pueden bendecir a los enfermos o 
+			afligidos. Por lo general, dos o más poseedores del sacerdocio bendicen a los enfermos, pero 
+			uno solo podría efectuar tanto la unción como el sellamiento si fuera necesario. Si no se 
+			dispusiera de aceite consagrado, de todos modos se podrá dar una bendición, sin la unción, 
+			por la autoridad del sacerdocio.</p>
+			
+			<p>Un padre que posea el Sacerdocio de Melquisedec normalmente debe bendecir a los miembros de 
+			su familia que estén enfermos.</p>
+        	
+        	<p>Los hermanos deben bendecir a los enfermos a petición de la persona enferma o de aquellos 
+        	que estén sumamente preocupados, a fin de que la bendición se reciba de acuerdo con su fe (véase 
+        	<a href="http://www.lds.org/scriptures/dc-testament/dc/24.13-14?lang=spa#13">D. y C. 24:13-14</a>,
+        	<a href="http://www.lds.org/scriptures/dc-testament/dc/42.43-44?lang=spa#43">42:43-44</a>,
+        	<a href="http://www.lds.org/scriptures/dc-testament/dc/42.48-52?lang=spa#48"> 48-52</a>).
+        	Los poseedores del Sacerdocio de Melquisedec que visiten hospitales no deben solicitar oportunidades 
+        	de bendecir a los enfermos.</p>
+        	
+        	<p>Si una persona solicita más de una bendición para la misma enfermedad, el poseedor del 
+        	sacerdocio no tiene que ungir con aceite después de la primera bendición. En cambio, da la 
+        	bendición por la imposición de las manos y por la autoridad del Sacerdocio de Melquisedec.</p>
+
+			<p>La bendición de los enfermos tiene dos partes: la unción con aceite y el sellamiento de la unción.</p>
+        	
+		]]>
+    </string>
+    
+    <string name="sealing_anointing">        
+        <![CDATA[
+        
+        	<p><b>Sellar la unción</b></p>
+        
+	        <p>El que sella la unción:</p>
+			
+			<b>1.</b> Llama a la persona por su nombre completo.<br />
+			<b>2.</b> Declara que está sellando la unción por la autoridad del Sacerdocio de Melquisedec.<br />
+			<b>3.</b> Da palabras de bendición según le indique el Espíritu.<br />
+			<b>4.</b> Termina en el nombre de Jesucristo.
+			
+			<p>Normalmente dos o más poseedores del Sacerdocio de Melquisedec colocan levemente las manos 
+			sobre la cabeza de la persona.<p>
+        
+        	<p><b>Bendecir a los enfermos</b></p>
+			
+			<p>Solamente los poseedores del Sacerdocio de Melquisedec pueden bendecir a los enfermos o 
+			afligidos. Por lo general, dos o más poseedores del sacerdocio bendicen a los enfermos, pero 
+			uno solo podría efectuar tanto la unción como el sellamiento si fuera necesario. Si no se 
+			dispusiera de aceite consagrado, de todos modos se podrá dar una bendición, sin la unción, 
+			por la autoridad del sacerdocio.</p>
+			
+			<p>Un padre que posea el Sacerdocio de Melquisedec normalmente debe bendecir a los miembros de 
+			su familia que estén enfermos.</p>
+        	
+        	<p>Los hermanos deben bendecir a los enfermos a petición de la persona enferma o de aquellos 
+        	que estén sumamente preocupados, a fin de que la bendición se reciba de acuerdo con su fe (véase 
+        	<a href="http://www.lds.org/scriptures/dc-testament/dc/24.13-14?lang=spa#13">D. y C. 24:13-14</a>,
+        	<a href="http://www.lds.org/scriptures/dc-testament/dc/42.43-44?lang=spa#43">42:43-44</a>,
+        	<a href="http://www.lds.org/scriptures/dc-testament/dc/42.48-52?lang=spa#48"> 48-52</a>).
+        	Los poseedores del Sacerdocio de Melquisedec que visiten hospitales no deben solicitar oportunidades 
+        	de bendecir a los enfermos.</p>
+        	
+        	<p>Si una persona solicita más de una bendición para la misma enfermedad, el poseedor del 
+        	sacerdocio no tiene que ungir con aceite después de la primera bendición. En cambio, da la 
+        	bendición por la imposición de las manos y por la autoridad del Sacerdocio de Melquisedec.</p>
+
+			<p>La bendición de los enfermos tiene dos partes: la unción con aceite y el sellamiento 
+			de la unción.</p>
+			
+			
+		]]>
+    </string>
+    
+    <string name="consecrating_anointing">        
+        <![CDATA[
+        	
+        	<p><b>Consagrar aceite</b></p>
+        
+	        <p>Para consagrar aceite, el poseedor del sacerdocio:</p>
+			
+			<b>1.</b> Sostiene un recipiente abierto que contenga aceite de oliva.<br />
+			<b>2.</b> Se dirige al Padre Celestial.<br />
+			<b>3.</b> Declara que actúa por la autoridad del Sacerdocio de Melquisedec.<br />
+			<b>4.</b> Consagra el aceite (no el recipiente) y lo aparta para la unción y la bendición 
+			de los enfermos y afligidos.<br />
+			<b>5.</b> Termina en el nombre de Jesucristo.<br />
+        
+        	<p>Uno o más poseedores del Sacerdocio de Melquisedec deben consagrar aceite de 
+        	oliva antes de utilizarlo para ungir a los enfermos o afligidos. No se puede emplear 
+        	ninguna otra clase de aceite.</p>
+        	
+        	<p>Los miembros no deben ingerir aceite consagrado ni aplicarlo sobre partes afectadas 
+        	del cuerpo.</p>
+        
+		]]>
+    </string>
+    
+    <string name="conferring_priesthood">        
+        <![CDATA[
+        
+        	<p><b>Conferir el sacerdocio y ordenar a un oficio</b></p>
+        
+	        <p>El poseedor del sacerdocio que efectúa la ordenación:</p>
+			
+			<b>1.</b> Llama a la persona por su nombre completo.<br />
+			<b>2.</b> Declara la autoridad por la cual se efectúa la ordenación (el Sacerdocio Aarónico o el de Melquisedec).<br />
+			<b>3.</b> Confiere el Sacerdocio Aarónico o el de Melquisedec, a menos que ya se haya conferido.<br />
+			<b>4.</b> Ordena a la persona a un oficio en el Sacerdocio Aarónico o del de Melquisedec y 
+			confiere los derechos, los poderes y la autoridad de ese oficio. (No se confieren llaves del 
+			sacerdocio al conferir el sacerdocio o al ordenar a uno de estos oficios.)<br />
+			<b>5.</b> Da palabras de bendición, según le indique el Espíritu.<br />
+			<b>6.</b> Termina en el nombre de Jesucristo.
+			
+			<p>Para efectuar una ordenación en el sacerdocio, uno o más poseedores del sacerdocio autorizados 
+			colocan las manos levemente sobre la cabeza de la persona.</p>
+			
+			<p>Cuando se hayan realizado las entrevistas y se hayan obtenido las aprobaciones necesarias:</p>
+
+			<p>1. El presidente de estaca (u otra persona bajo su dirección) puede ordenar a la persona 
+			al oficio de élder, o puede autorizar a otro poseedor del Sacerdocio de Melquisedec para que 
+			lo haga. Sólo los poseedores del Sacerdocio de Melquisedec pueden formar parte del círculo.</p>
+			
+			<p>2. El presidente de estaca (u otra persona bajo su dirección) puede ordenar a la persona 
+			al oficio de sumo sacerdote, o puede autorizar a otro sumo sacerdote para que lo haga. Sólo 
+			los sumos sacerdotes pueden formar parte del círculo.</p>
+			
+			<p>3. El obispo (u otra persona bajo su dirección) puede ordenar a la persona al oficio de 
+			diácono, de maestro o de presbítero. Sólo los presbíteros y los poseedores del Sacerdocio de 
+			Melquisedec pueden actuar como portavoces o formar parte del círculo.</p>
+			
+			<p>Para participar en una ordenación, la persona debe (1) ser presbítero o poseedor del 
+			Sacerdocio de Melquisedec y (2) tener autoridad igual o superior en el sacerdocio que la 
+			que se vaya a dar en la ordenanza. Por ejemplo, un élder no debe formar parte del círculo 
+			cuando se ordene a un sumo sacerdote, o cuando a un hermano se le aparte a un oficio en el 
+			que tenga que ser sumo sacerdote.</p>
+        
+		]]>
+    </string>
+    
+    
+    <string name="setting_appart">        
+        <![CDATA[
+        
+        	<p><b>Apartar a oficiales y a maestros</b></p>
+        
+	        <p>Entonces el poseedor del sacerdocio que actúa como portavoz:</p>
+			
+			<b>1.</b> Llama a la persona por su nombre completo.<br />
+			<b>2.</b> Declara que está obrando por la autoridad del Sacerdocio de Melquisedec.<br />
+			<b>3.</b> Aparta a la persona al debido oficio en la estaca, en el barrio, en el quórum, en 
+			el grupo de sumos sacerdotes o en la clase.<br />
+			<b>4.</b> Confiere llaves si la persona tiene derecho a recibirlas. (En las estacas y en los 
+			barrios, sólo los presidentes de estaca, los obispos y los presidentes de quórum reciben 
+			llaves de presidencia cuando son apartados. La palabra llaves no debe emplearse al apartar a 
+			consejeros, miembros del sumo consejo, líderes del grupo de sumos sacerdotes, presidentes de 
+			organizaciones auxiliares, asistentes del obispo en el quórum de presbíteros ni a maestros de 
+			una organización.)<br />
+			<b>5.</b> Da palabras de bendición según lo dirija el Espíritu.<br />
+			<b>6.</b> Termina en el nombre de Jesucristo.
+			
+			<p>Bajo la dirección de la autoridad que preside, uno o más poseedores del Sacerdocio de 
+			Melquisedec pueden participar en un apartamiento, incluso un padre o un esposo dignos. Estos 
+			hermanos ponen sus manos levemente sobre la cabeza de la persona.</p>
+			
+			<p>Los miembros que son llamados a la mayoría de cargos de la Iglesia deben ser apartados antes 
+			de que empiecen a servir. En el Cuadro de Llamamientos se indica quién está autorizado a efectuar 
+			un apartamiento. Se aparta a los presidentes antes que a sus consejeros.</p>
+			
+			<p>Un apartamiento es una oportunidad de dar una bendición. Normalmente se proporcionan consejos 
+			e instrucciones detalladas cuando se enseña a una persona sus deberes y no durante el apartamiento.</p>
+			
+			<p>Un apartamiento no se debe alargar hasta convertirse en una reunión formal. No es necesario 
+			que haya oraciones, testimonios ni instrucción cuando se aparte a alguien</p>
+        
+		]]>
+    </string>
+    
+    
+    <string name="father_blessings">        
+        <![CDATA[
+        
+        	<p><b>Bendiciones de padre y otras bendiciones de consuelo y de consejo</b></p>
+        
+	        <p>El poseedor del sacerdocio que vaya a dar la bendición:</p>
+			
+			<b>1.</b> Llama a la persona por su nombre completo.<br />
+			<b>2.</b> Declara que la bendición se efectúa por la autoridad del Sacerdocio de Melquisedec.<br />
+			<b>3.</b> Da palabras de bendición, según le indique el Espíritu.<br />
+			<b>4.</b> Termina en el nombre de Jesucristo.
+			
+			<p>Las bendiciones de padre y otras bendiciones del sacerdocio se dan con objeto de 
+			proporcionar dirección y consuelo, según lo indique el Espíritu.</p>
+
+			<p>Un padre que posea el Sacerdocio de Melquisedec puede dar bendiciones de padre a 
+			sus hijos. Estas bendiciones pueden ser particularmente beneficiosas cuando los hijos 
+			van a la escuela, van a una misión, se casan, entran en el servicio militar o enfrentan 
+			problemas especiales. La familia puede grabar una bendición de padre para sus archivos 
+			familiares, pero estas bendiciones no se guardan en los registros de la Iglesia. Los 
+			padres deben animar a sus hijos a solicitar una bendición de padre en momentos de necesidad.</p>
+			
+			<p>Los poseedores del Sacerdocio de Melquisedec también pueden dar bendiciones de consuelo 
+			y de consejo a otros miembros de la familia y a otras personas que las soliciten.</p>
+        
+		]]>
+    </string>
+    
+    <string name="blessing_children">        
+        <![CDATA[
+        	
+        	<p><b>Nombre y bendecir a un niño pequeño</b></p>
+        	
+        	<p>La persona que da la bendición:</p>
+
+			<b>1.</b> Se dirige al Padre Celestial.<br />
+			<b>2.</b> Declara que la bendición se efectúa por la autoridad del Sacerdocio de Melquisedec.<br />
+			<b>3.</b> Da el nombre al niño o a la niña.<br />
+			<b>4.</b> Pronuncia palabras de bendición de acuerdo con lo que le indique el Espíritu.<br />
+			<b>5.</b> Termina en el nombre de Jesucristo.<br />
+			
+			<p>Cuando se bendice a un bebe, los poseedores del Sacerdocio de Melquisedec se reúnen en 
+			un círculo y colocan sus manos debajo de ella. Cuando se bendice a un niño mayor, los hermanos le 
+			colocan las manos levemente sobre la cabeza.<p>
+        
+        	<p>“Todo miembro de la Iglesia de Cristo que tenga hijos deberá traerlos a los élderes ante 
+        	la iglesia, quienes les impondrán las manos en el nombre de Jesucristo y los bendecirán en su nombre” 
+        	(<a href="http://www.lds.org/scriptures/dc-testament/dc/20.70?lang=spa#70">D. y C. 20:70</a>). 
+        	De conformidad con esta revelación, sólo los poseedores del Sacerdocio de Melquisedec pueden 
+        	participar en dar nombre y bendecir a niños pequeños. Los líderes del sacerdocio deben informar 
+        	a los miembros sobre esta instrucción antes de dar nombre y bendecir a sus hijos. Al mismo tiempo 
+        	que preservan la naturaleza sagrada de la bendición, los líderes deben hacer todo esfuerzo 
+        	razonable por evitar avergonzar u ofender a personas o a familias.</p>
+			
+			<p>Normalmente, a los niños se les da nombre y se los bendice durante una reunión de ayuno y 
+			testimonios en el barrio en el que los padres sean miembros inscritos.</p>
+			
+			<p>Antes de bendecir a un niño, el secretario de barrio prepara un Registro y certificado de 
+			bendición de niño. Después de la bendición, el secretario se asegura de que este formulario 
+			esté completo y lo procesa o lo distribuye de acuerdo con las instrucciones del formulario. 
+			El secretario también prepara un certificado de la bendición. El obispo firma el certificado 
+			y él o el secretario lo entrega a los padres o a los tutores del niño.</p>
+			
+			<p>Si el niño hubiera nacido fuera de los vínculos matrimoniales, el nombre que aparezca en 
+			la cédula de miembro y en el certificado de bendición deberá ser igual al que figure en el 
+			certificado de nacimiento o en la ficha del registro civil. Si no hubiera certificado de 
+			nacimiento ni ficha de registro civil, se utilizan las prácticas de dar nombre de la cultura 
+			local.</p>
+        
+		]]>
+    </string>
+    
+    <string name="baptism">        
+        <![CDATA[
+        
+        	<p><b>Bautismo</b></p>
+        	
+        	<p>La persona que efectúa la ordenanza:<p/>
+
+			<b>1.</b> Se pone de pie en el agua junto con la persona que se vaya a bautizar.<br />
+			<b>2.</b> Con la mano izquierda toma la muñeca derecha de la persona (por conveniencia y seguridad); 
+			la persona que se va a bautizar toma la muñeca izquierda del poseedor del sacerdocio con la mano izquierda.<br />
+			<b>3.</b> Levanta el brazo derecho en forma de escuadra.<br />
+			<b>4.</b> Pronuncia el nombre completo de la persona y dice: “Habiendo sido comisionado por Jesucristo, 
+			yo te bautizo en el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén” 
+			(<a href="http://www.lds.org/scriptures/dc-testament/dc/20.73?lang=spa#73">D. y C. 20:73</a>).<br />
+			<b>5.</b> Hace que la persona se tape la nariz con la mano derecha (por conveniencia); 
+			luego, el poseedor del sacerdocio coloca la mano derecha en la parte superior de la espalda de 
+			la persona y la sumerge por completo, incluyendo, la vestimenta de la persona.<br />
+			<b>6.</b> Ayuda a la persona a salir del agua.
+
+			<p><i>Bajo la dirección de la autoridad que presida</i>, un presbítero o un poseedor del 
+			Sacerdocio de Melquisedec puede efectuar la ordenanza del bautismo.</p>
+			
+			<p>Los bautismos de conversos por lo general los efectúa un poseedor del sacerdocio del 
+			barrio o uno de los misioneros que enseñó a la persona. Un converso también puede solicitar 
+			que otro miembro que reúna los requisitos efectúe el bautismo.</p>
+        
+        
+		]]>
+    </string>
+    
+    <string name="confirmation">        
+        <![CDATA[
+        
+        
+        	<p><b>Confirmación</b></p>
+        
+        	<p>La persona que efectúa la ordenanza:<p/>
+        	
+        	<b>1.</b> Pronuncia el nombre completo de la persona.<br />
+			<b>2.</b> Declara que la ordenanza se efectúa por la autoridad del Sacerdocio de Melquisedec.<br />
+			<b>3.</b> Confirma a la persona miembro de La Iglesia de Jesucristo de los Santos de los Últimos Días.<br />
+			<b>4.</b> Usa las palabras “Recibe el Espíritu Santo” (no “recibe el don del Espíritu Santo”).<br />
+			<b>5.</b> Da palabras de bendición, según le indique el Espíritu.<br />
+			<b>6.</b> Termina en el nombre de Jesucristo.
+			
+			<p>Una persona es confirmada miembro de la Iglesia y recibe el don del Espíritu Santo después 
+			de ser bautizada (véase 
+			<a href="http://www.lds.org/scriptures/dc-testament/dc/20.41?lang=spa#41">D. y C. 20:41</a>). 
+			Una persona llega a ser miembro de la Iglesia únicamente después de que las ordenanzas del 
+			bautismo y de la confirmación se hayan efectuado y registrado debidamente (véase 
+			<a href="https://www.lds.org/scriptures/nt/john/3.5?lang=spa#4">John 3:5</a>; 
+			<a href="https://www.lds.org/scriptures/dc-testament/dc/33.11?lang=spa#10">D. y C. 33:11</a>).</p>
+			
+			<p>El obispo posee las llaves para confirmar a miembros inscritos de ocho años de edad. 
+			El presidente de misión posee las llaves para confirmar a conversos. Sin embargo, el obispo 
+			supervisa la realización de esta ordenanza, ya sea de un miembro inscrito de ocho años de 
+			edad o de un converso. El obispo se asegura de que se efectúe poco después del bautismo.</p>
+			
+			<p>Se puede confirmar a los miembros inscritos de ocho años en el servicio bautismal o en 
+			una reunión sacramental del barrio donde residan, preferiblemente en una reunión de ayuno 
+			y testimonios.</p>
+			
+			<p>Los conversos son confirmados en cualquier reunión sacramental del barrio donde residan, 
+			preferiblemente el domingo siguiente a su bautismo. Los conversos no son confirmados en el 
+			servicio bautismal.</p>
+			
+			<p>Por lo menos un miembro del obispado participa en esta ordenanza. Cuando élderes 
+			misioneros hayan enseñado a un converso, el obispo debe invitarlos a participar.</p>
+			
+			<p>El obispo no lleva a cabo una entrevista por separado para esta ordenanza.</p>
+        
+		]]>
+    </string>
+    
+    <string name="dedicating_graves">        
+        <![CDATA[
+        
+        	<p><b>Dedicar sepulturas</b></p>
+        
+	        <p>La persona que efectúa la ordenanza:<p/>
+			
+			<b>1.</b> Se dirige al Padre Celestial.<br />
+			<b>2.</b> Declara que está actuando por la autoridad del Sacerdocio de Melquisedec.<br />
+			<b>3.</b> Dedica y consagra la sepultura como lugar de descanso para el cuerpo del difunto.<br />
+			<b>4.</b> Ora para que el lugar permanezca sagrado y protegido hasta la Resurrección 
+			(donde resulte apropiado).<br />
+			<b>5.</b> Pide al Señor que consuele a la familia y expresa pensamientos que el Espíritu le 
+			indique.<br />
+			<b>6.</b> Termina en el nombre de Jesucristo.
+			
+			<p>La persona que dedique una sepultura debe poseer el Sacerdocio de Melquisedec y <i>estar 
+			autorizada por el oficial del sacerdocio que dirija el servicio.</i></p>
+        
+        	<p>Si la familia lo prefiere, se puede ofrecer una oración al lado de la sepultura en lugar 
+        	de una oración dedicatoria.</p>
+			
+			<p>Si el cuerpo de un miembro de la Iglesia fuera cremado, el oficial que preside puede 
+			valerse de su criterio para determinar si se ha de dedicar el lugar donde se preserven 
+			las cenizas. Toma en cuenta los deseos de la familia, las costumbres locales y las leyes 
+			locales. Si el lugar se fuera a dedicar, el poseedor del sacerdocio puede adaptar las 
+			instrucciones para dedicar una sepultura.</p>
+        
+		]]>
+    </string>
+    
+    
+    <string name="dedicating_homes">        
+        <![CDATA[
+        
+        	<p><b>Dedicar hogares</b></p>
+        
+	        <p>Los miembros de la Iglesia pueden dedicar sus hogares como edificios sagrados donde el Santo 
+	        Espíritu pueda morar y donde los miembros de la familia puedan adorar, hallar refugio del mundo, 
+	        crecer espiritualmente y prepararse para tener relaciones familiares eternas. No es necesario 
+	        que el hogar esté libre de deudas para ser dedicado. A diferencia de los edificios de la Iglesia, 
+	        los hogares no se consagran al Señor.</p>
+
+			<p>Un poseedor del Sacerdocio de Melquisedec puede dedicar un hogar por el poder del sacerdocio. 
+			Si en el hogar no hubiera un poseedor del Sacerdocio de Melquisedec, la familia podría invitar a 
+			un pariente cercano, a un maestro orientador o a otro poseedor del Sacerdocio de Melquisedec para 
+			dedicar el hogar. O una familia podría reunirse y ofrecer una oración que incluya los elementos 
+			mencionados en el párrafo anterior y otras palabras según lo indique el Espíritu.</p>
+        
+		]]>
+    </string>
+    
+    
+    <string name="sacrament">        
+        <![CDATA[
+        
+        	<p><b>Santa Cena</b></p>
+        
+	        <p><b>Bendecir el pan</b></p>
+	        
+	        <p>“Oh Dios, Padre Eterno, en el nombre de Jesucristo, tu Hijo, te pedimos que bendigas y santifiques 
+	        este pan para las almas de todos los que participen de él, para que lo coman en memoria del cuerpo 
+	        de tu Hijo, y testifiquen ante ti, oh Dios, Padre Eterno, que están dispuestos a tomar sobre sí 
+	        el nombre de tu Hijo, y a recordarle siempre, y a guardar sus mandamientos que él les ha dado, para 
+	        que siempre puedan tener su Espíritu consigo. Amén.” (
+			<a href="http://www.lds.org/scriptures/dc-testament/dc/20.77?lang=spa#77">D. y C. 20:77</a>; 
+			<a href="http://www.lds.org/scriptures/bofm/moro/4.1-3?lang=spa">Moroni 4</a>).<p>
+	        
+	        <p><b>Bendecir el agua</b></p>
+			
+			<p>“Oh Dios, Padre Eterno, en el nombre de Jesucristo, tu Hijo, te pedimos que bendigas y santifiques 
+			este [agua] para las almas de todos los que lo beban, para que lo hagan en memoria de la sangre de 
+			tu Hijo, que por ellos se derramó; para que testifiquen ante ti, oh Dios, Padre Eterno, que siempre 
+			se acuerdan de él, para que puedan tener su Espíritu consigo. Amén.” 
+			(<a href="http://www.lds.org/scriptures/dc-testament/dc/20.79?lang=spa#79">D. y C. 20:79</a> and 
+			<a href="http://www.lds.org/scriptures/bofm/moro/5.1-2?lang=spa">Moroni 5</a>).</p>
+        
+        	<p>Los presbíteros y los poseedores del Sacerdocio de Melquisedec pueden bendecir la Santa Cena. 
+        	Los diáconos, los maestros, los presbíteros y los poseedores del Sacerdocio de Melquisedec 
+        	pueden repartir la Santa Cena.</p>
+
+			<p>Mientras la congregación canta el himno sacramental, los poseedores del sacerdocio que vayan 
+			a bendecir la Santa Cena se ponen de pie con reverencia, quitan el mantel que cubre las bandejas 
+			del pan y parten el pan en trozos pequeños. Cuando terminen de partir el pan, se sientan y se 
+			unen al canto del himno. Este himno no se reemplaza con solos vocales ni con música instrumental.</p>
+
+			<p>Después del himno, la persona que bendiga el pan se arrodilla y ofrece la oración sacramental 
+			para el pan. El obispo se asegura de que se pronuncien de manera clara, precisa y digna. Si la 
+			persona que bendice la Santa Cena cometiera un error en las palabras pero se corrige a sí misma, 
+			no es necesario hacer otra corrección, pero si la persona no corrige un error, el obispo le indica 
+			que debe repetir la oración correctamente. Al hacerlo, el obispo debe tener cuidado de no 
+			avergonzar ni perturbar la naturaleza sagrada de la ordenanza.</p>
+			
+			<p>Después de la oración, los diáconos u otros poseedores del sacerdocio reparten el pan a la 
+			congregación de manera reverente y ordenada. El oficial que preside es el primero en recibir la 
+			Santa Cena. El obispo (o en su ausencia uno de sus consejeros) preside la reunión sacramental a 
+			menos que en el estrado se encuentre un miembro de la presidencia de estaca, un Setenta de Área 
+			o una Autoridad General. Un miembro del sumo consejo no preside ni es el primero en recibir la 
+			Santa Cena.</p>
+			
+			<p>Mientras el oficial que presida esté recibiendo la Santa Cena, los demás que estén repartiendo 
+			la Santa Cena pueden dirigirse a los lugares que se les haya designado.</p>
+			
+			<p>Después de que un poseedor del sacerdocio entregue a un miembro una bandeja de la Santa Cena, 
+			los demás pueden pasarse la bandeja de uno al otro por conveniencia.</p>
+			
+			<p>Cuando los hermanos terminen de repartir el pan, devuelven las bandejas a la mesa sacramental. 
+			Los que oficien en la mesa sacramental colocan el mantel sobre las bandejas del pan y descubren 
+			las bandejas del agua. La persona que bendiga el agua entonces se arrodilla y ofrece la oración 
+			sacramental del agua, sustituyendo la palabra vino con la palabra agua.</p>
+			
+			<p>Después de la oración, los diáconos u otros poseedores del sacerdocio reparten el agua a la 
+			congregación. Cuando terminen, devuelven las bandejas a la mesa sacramental, esperan hasta que 
+			los que ofician cubran las bandejas y entonces vuelven con reverencia a sus asientos.</p>
+			
+			<p>Todos los que asisten a la reunión deben ser reverentes durante toda la ordenanza de bendecir 
+			y repartir la Santa Cena.</p>
+			
+			<p>No se debe tocar música durante la oración, mientras se reparte la Santa Cena, ni como postludio 
+			después de que se reparta la Santa Cena.</p>
+        
+        
+        	
+		]]>
+    </string>
+    
+    
+    <string name="blessings_in_general">        
+        <![CDATA[
+        
+        	<p><b>Instrucciones generales</b></p>
+        
+	        <p>Una ordenanza es un acto sagrado, como el bautismo, que se efectúa por la autoridad del sacerdocio. 
+	        Las ordenanzas del bautismo, la confirmación, la ordenación al Sacerdocio de Melquisedec (para los hombres), 
+	        la investidura del templo y el sellamiento en el templo son necesarias para la exaltación de toda persona 
+	        responsable. A éstas se les llama ordenanzas de salvación. Como parte de cada ordenanza de salvación, el 
+	        que la recibe hace convenios con Dios.</p>
+
+			<p>Para efectuar una ordenanza de salvación se requiere autorización de un líder del sacerdocio que posea las 
+			llaves correspondientes o que actúe bajo la dirección de una persona que posea esas llaves. También se requiere 
+			tal autorización para otorgar el nombre y bendecir a un niño, dedicar una sepultura, dar una bendición 
+			patriarcal, y preparar, bendecir y repartir la Santa Cena. Los poseedores del Sacerdocio de Melquisedec pueden 
+			consagrar aceite, bendecir a enfermos, dar bendiciones de padre y otras bendiciones de consuelo y de consejo 
+			sin solicitar primeramente autorización de un líder del sacerdocio.</p>
+
+			<p>Los hermanos que lleven a cabo ordenanzas y bendiciones deben prepararse mediante una vida digna y esforzarse 
+			por ser guiados por el Santo Espíritu. Deben efectuar cada ordenanza o bendición de manera digna, asegurándose 
+			de que cumpla los siguientes requisitos:</p>
+
+			<b>1.</b> Se debe efectuar en el nombre de Jesucristo. <br />
+			<b>2.</b> Se debe efectuar por la autoridad del sacerdocio.<br />
+			<b>3.</b> Se debe efectuar con cualquiera de los procedimientos necesarios, como el uso de palabras 
+			específicas o el uso de aceite consagrado.<br />
+			<b>4.</b> La debe autorizar la autoridad presidente que posea las llaves correspondientes (por lo 
+			general el obispo o el presidente de estaca), si fuera necesario, según las instrucciones de este capítulo.<br />
+
+			<p>Un líder del sacerdocio que supervise una ordenanza o bendición se asegura de que la persona que la efectúe 
+			tenga la autoridad del sacerdocio necesaria, sea digno, y conozca y siga los debidos procedimientos. Los líderes 
+			también deben procurar que la ordenanza o la bendición sea una experiencia reverente y espiritual.</p>
+
+			<p>Cuando en la reunión sacramental se efectúen ordenanzas o bendiciones, el obispo se asegura de que se 
+			realicen debidamente. Para evitar avergonzar a un poseedor del sacerdocio, el obispo corrige discretamente 
+			los errores sólo si los elementos esenciales de la ordenanza o bendición estuvieran incorrectos.</p>
+
+			<p>Los que dan bendiciones del sacerdocio pronuncian palabras de bendición (“Yo [o nosotros] te bendigo 
+			[o te bendecimos] para que…”) en vez de decir una oración (“Padre Celestial, por favor bendice a esta 
+			persona para que…”).</p>
+        
+		]]>
+    </string>
+    
+    <!-- Ordinance.java Strings -->
+    <string name="error">Un error ha ocurrido</string>
+    
+    <!-- about_lds.xml Strings -->
+    <string name="alternate_text_on_about_lds">foto de applicación icon</string>
+    <string name="version">Versión</string>   <!-- version also used in about_lds.xml Strings -->
+    <string name="copy_right">2012 Klapheck Apps</string>
+    <string name="send_feedback">Manda información</string>
+    
+    <!-- version also used in about_lds.xml Strings -->
+    <string name="rate">De 1 a 10, yo cloasificar esta aplicación: </string>
+    <string name="message">mensaje:</string>
+    
+    <!-- MainMenu.java Strings -->
+    <string name="discovered">Yo descubri LDS Ordenanzas.</string>
+    
+    <!-- open_source.xml Strings -->
+    <string name="open_source_initiative">Codo de información</string>
+    <string name="open_source_title">Referencias</string>
+    
+    <!-- OpenSource.java Strings -->
+    <string name="open_source_logo_discription">Open Source Initiative logo</string>
+    <string name="java_source">Codo de Java source</string>
+    <string name="lds_org">LDS.org - contenido</string>
+    <string name="app_icon">Applicación icon source</string>
+    <string name="lds_info">LDS Info (Android aplicación - inspiración)</string>
+    <string name="lds_priesthood_ord">LDS Ordenanzas del Sacerdocio (iPhone aplicación - inspiración)</string>
+    
+    <!-- main_menu.xml Strings -->
+    <string name="about_us">Sobre nosotros</string>
+    <string name="share">Share</string>
+    <string name="blessings">Bendiciones</string>
+    <string name="open_source">Open-Source</string>
+    <string name="exit">Salida</string>
+
+</resources>

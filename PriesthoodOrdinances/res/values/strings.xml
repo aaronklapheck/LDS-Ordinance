@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- PriesthoodOrdinances Manifest -->
+    <string name="app_name">LDS Ordinances</string>
+    
+    <!-- Titles used in MainMenu -->
+    <string name="AnointingOil">Anointing with Oil</string>
+    <string name="SealingAnointing">Sealing the Anointing</string>
+    <string name="ConsecratingOil">Consecrating Oil</string>
+    <string name="ConferringPriesthood">Conferring the Priesthood and Offices</string>
+    <string name="SettingApart">Setting Apart Officers and Teachers</string>
+	<string name="FatherBlessing">Father’s/Comforting Blessing</string>
+	<string name="NamingChildren">Naming and Blessing Children</string>
+	<string name="Baptism">Baptism</string>
+	<string name="Confirmation">Confirmation</string>
+	<string name="Sacrament">Sacrament</string>
+	<string name="DedicatingHomes">Dedicating Homes</string>
+	<string name="DedicatingGraves">Dedicating Graves</string>
+	
+	
+	<!-- Text used to fill content in blessings.xml and Ordinance.java -->
+    <string name="anointing_oil">        
+        <![CDATA[
+        
+        	<p><b>Anointing with Oil</b></p>
+        
+	        <p>The anointing is done by one Melchizedek Priesthood holder. He:</p>
+			
+			<b>1.</b> Puts a drop of consecrated oil on the person’s head.<br />
+			<b>2.</b> Places his hands lightly on the person’s head and calls the person by his or her full name.<br />
+			<b>3.</b> States that he is anointing the person by the authority of the Melchizedek Priesthood.<br />
+			<b>4.</b> States that he is anointing with oil that has been consecrated for anointing and blessing the sick and afflicted.<br />
+			<b>5.</b> Closes in the name of Jesus Christ.
+			
+        
+        	<p><b>Administering to the Sick</b></p>
+			
+			<p>Only men who hold the Melchizedek Priesthood may administer to the sick or afflicted. 
+			Normally, two or more administer together, but one may do it alone. If consecrated oil 
+			is not available, a man who holds the Melchizedek Priesthood may give a blessing by the 
+			authority of the priesthood.</p>
+			
+			<p>A father who holds the Melchizedek Priesthood normally should administer to sick members of 
+			his family.</p>
+        	
+        	<p>Brethren should administer to the sick at the request of the sick person or of those
+        	who are vitally concerned so the blessing will be according to their faith (see 
+        	<a href="http://www.lds.org/scriptures/dc-testament/dc/24.13-14?lang=eng#13">D&amp;C 24:13-14</a>,
+        	<a href="http://www.lds.org/scriptures/dc-testament/dc/42.43-44?lang=eng#43">42:43-44</a>,
+        	<a href="http://www.lds.org/scriptures/dc-testament/dc/42.48-52?lang=eng#48"> 48-52</a>).
+        	Melchizedek Priesthood holders who visit hospitals should not solicit opportunities to administer to the sick.</p>
+        	
+        	<p>If a person requests more than one blessing for the same illness, the priesthood holder need 
+        	not anoint with oil after the first blessing. Instead, he gives a blessing by the laying on of 
+        	hands and the authority of the Melchizedek Priesthood.</p>
+
+			<p>Administering to the sick has two parts: anointing with oil and sealing the anointing.</p>
+        	
+		]]>
+    </string>
+    
+    <string name="sealing_anointing">        
+        <![CDATA[
+        
+        	<p><b>Sealing the Anointing</b></p>
+        
+	        <p>The one who seals the anointing:</p>
+			
+			<b>1.</b> Calls the person by his or her full name.<br />
+			<b>2.</b> States that he is sealing the anointing by the authority of the Melchizedek Priesthood.<br />
+			<b>3.</b> Gives a blessing as the Spirit directs.<br />
+			<b>4.</b> Closes in the name of Jesus Christ.
+			
+			<p>Normally, two or more men who hold the Melchizedek Priesthood place their hands lightly on the 
+			head of the person who is sick.<p>
+        
+        	<p><b>Administering to the Sick</b></p>
+			
+			<p>Only men who hold the Melchizedek Priesthood may administer to the sick or afflicted. 
+			Normally, two or more administer together, but one may do it alone. If consecrated oil 
+			is not available, a man who holds the Melchizedek Priesthood may give a blessing by the 
+			authority of the priesthood.</p>
+			
+			<p>A father who holds the Melchizedek Priesthood normally should administer to sick members of 
+			his family.</p>
+        	
+        	<p>Brethren should administer to the sick at the request of the sick person or of those
+        	who are vitally concerned so the blessing will be according to their faith (see 
+        	<a href="http://www.lds.org/scriptures/dc-testament/dc/24.13-14?lang=eng#13">D&amp;C 24:13-14</a>,
+        	<a href="http://www.lds.org/scriptures/dc-testament/dc/42.43-44?lang=eng#43">42:43-44</a>,
+        	<a href="http://www.lds.org/scriptures/dc-testament/dc/42.48-52?lang=eng#48"> 48-52</a>).
+        	Melchizedek Priesthood holders who visit hospitals should not solicit opportunities to administer to the sick.</p>
+        	
+        	<p>If a person requests more than one blessing for the same illness, the priesthood holder need 
+        	not anoint with oil after the first blessing. Instead, he gives a blessing by the laying on of 
+        	hands and the authority of the Melchizedek Priesthood.</p>
+
+			<p>Administering to the sick has two parts: anointing with oil and sealing the anointing.</p>
+		]]>
+    </string>
+    
+    <string name="consecrating_anointing">        
+        <![CDATA[
+        	
+        	<p><b>Consecrating Oil</b></p>
+        
+	        <p>To consecrate oil, a priesthood holder:</p>
+			
+			<b>1.</b> Holds an open container of olive oil.<br />
+			<b>2.</b> Addresses our Heavenly Father.<br />
+			<b>3.</b> States that he is acting by the authority of the Melchizedek Priesthood.<br />
+			<b>4.</b> Consecrates the oil (not the container) and sets it apart for anointing and 
+			blessing of the sick and afflicted.<br />
+			<b>5.</b> Closes in the name of Jesus Christ.
+        
+        	<p>One or more Melchizedek Priesthood holders must consecrate olive oil before it is 
+        	used to anoint the sick or afflicted. No other oil may be used.</p>
+        	
+        	<p>Members should not take consecrated oil internally or apply it on afflicted parts of the body.</p>
+        
+		]]>
+    </string>
+    
+    <string name="conferring_priesthood">        
+        <![CDATA[
+        
+        	<p><b>Conferring the Priesthood and Ordaining to an Office</b></p>
+        
+	        <p>The priesthood holder who performs the ordination:</p>
+			
+			<b>1.</b> Calls the person by his full name.<br />
+			<b>2.</b> States the authority by which the ordination is performed (Aaronic or Melchizedek Priesthood).<br />
+			<b>3.</b> Confers the Aaronic or Melchizedek Priesthood, unless it has already been conferred.<br />
+			<b>4.</b> Ordains the person to an office in the Aaronic or Melchizedek Priesthood and bestows 
+			the rights, powers, and authority of that office. (Priesthood keys are not bestowed in conferring 
+			the priesthood or ordaining to one of these offices.)<br />
+			<b>5.</b> Gives words of blessing as the Spirit directs.<br />
+			<b>6.</b> Closes in the name of Jesus Christ.
+			
+			<p>To perform a priesthood ordination, one or more authorized priesthood holders place their hands 
+			lightly on the person’s head.</p>
+			
+			<p>When the necessary interviews and approvals are completed:</p>
+
+			<p>1. The stake president (or someone under his direction) may ordain the person to the 
+			office of elder, or he may authorize another Melchizedek Priesthood holder to do so. 
+			Only Melchizedek Priesthood holders may stand in the circle.</p>
+			
+			<p>2. The stake president (or someone under his direction) may ordain the person to the 
+			office of high priest, or he may authorize another high priest to do so. Only high priests 
+			may stand in the circle.</p>
+			
+			<p>3. The bishop (or someone under his direction) may ordain the person to the office of 
+			deacon, teacher, or priest. Only priests and Melchizedek Priesthood holders may act as 
+			voice or stand in the circle.</p>
+			
+			<p>To participate in an ordination, a person must (1) be a priest or Melchizedek Priesthood 
+			holder and (2) have equal or higher priesthood authority than is to be given in the ordinance. 
+			For instance, an elder should not stand in the circle when a high priest is ordained or when 
+			a man is set apart to an office that requires him to be a high priest.</p>
+        
+		]]>
+    </string>
+    
+    
+    <string name="setting_appart">        
+        <![CDATA[
+        
+        	<p><b>Setting Apart Officers and Teachers</b></p>
+        
+	        <p>The priesthood holder who acts as voice:</p>
+			
+			<b>1.</b> Calls the person by his or her full name.<br />
+			<b>2.</b> States that he is acting by the authority of the Melchizedek Priesthood.<br />
+			<b>3.</b> Sets the person apart to the appropriate office in the stake, ward, quorum, high 
+			priests group, or class.<br />
+			<b>4.</b> Confers keys if the person is entitled to receive them. (In stakes and wards, only 
+			stake presidents, bishops, and quorum presidents receive keys of presidency when they are set 
+			apart. The word keys should not be used when setting apart counselors, high councilors, high 
+			priests group leaders, presidents of auxiliary organizations, the bishop’s priests quorum 
+			assistants, or teachers in an organization.)<br />
+			<b>5.</b> Gives words of blessing as the Spirit directs.<br />
+			<b>6.</b> Closes in the name of Jesus Christ.
+			
+			<p>Under the direction of the presiding authority, one or more Melchizedek Priesthood holders 
+			may participate in a setting apart, including a worthy father or husband. These brethren 
+			place their hands lightly on the person’s head.</p>
+			
+			<p>Members who are called to most Church positions should be set apart before they begin 
+			serving. The Chart of Callings indicates who is authorized to perform a setting apart. Presidents 
+			are set apart before their counselors.</p>
+			
+			<p>A setting apart is an opportunity to give a blessing. Detailed counsel and instruction are 
+			normally provided when a person is taught his or her duties rather than during the setting apart.</p>
+			
+			<p>A setting apart should not be expanded into a formal meeting. It is not necessary to have 
+			prayers, testimonies, or instruction when someone is set apart.</p>
+        
+		]]>
+    </string>
+    
+    
+    <string name="father_blessings">        
+        <![CDATA[
+        
+        	<p><b>Father’s Blessings and Other Blessings of Comfort and Counsel</b></p>
+        
+	        <p>The priesthood holder who gives the blessing:</p>
+			
+			<b>1.</b> Calls the person by his or her full name.<br />
+			<b>2.</b> States that he is giving the blessing by the authority of the Melchizedek Priesthood.<br />
+			<b>3.</b> Gives a blessing as the Spirit directs.<br />
+			<b>4.</b> Closes in the name of Jesus Christ.
+			
+			<p>To give a father’s blessing or another blessing of comfort and counsel, one or more Melchizedek 
+			Priesthood holders place their hands lightly on the person’s head.</p>
+			
+			<p>Father’s blessings and other priesthood blessings are given to provide direction and 
+			comfort as guided by the Spirit.<p>
+        
+        	<p>A father who holds the Melchizedek Priesthood may give father’s blessings to his children. 
+        	Such blessings may be especially helpful when children go away from home, such as to attend 
+        	school or go on missions, or when they begin employment, get married, enter military service, 
+        	or face unusual personal challenges. These blessings can be a great strength to a family. A 
+        	family may record a father’s blessing for family records, but it is not preserved in Church 
+        	records. Parents should encourage children to seek father’s blessings in times of need.</p>
+        	
+        	<p>Melchizedek Priesthood holders may also give blessings of comfort and counsel to other 
+        	family members and to others who ask for them.</p>
+        
+		]]>
+    </string>
+    
+    <string name="blessing_children">        
+        <![CDATA[
+        
+        	<p><b>Naming and Blessing Children</b></p>
+        
+	        <p>The person who gives the blessing:</p>
+			
+			<b>1.</b> Addresses Heavenly Father.<br />
+			<b>2.</b> States that the blessing is given by the authority of the Melchizedek Priesthood.<br />
+			<b>3.</b> Gives the child a name.<br />
+			<b>4.</b> Gives words of blessing as the Spirit directs.<br />
+			<b>5.</b> Closes in the name of Jesus Christ.
+			
+			<p>When blessing a baby, men who hold the Melchizedek Priesthood gather in a circle and hold 
+			the baby in their hands. When blessing an older child, brethren place their hands lightly on 
+			the child’s head.<p>
+        
+        	<p>“Every member of the church of Christ having children is to bring them unto the elders before 
+        	the church, who are to lay their hands upon them in the name of Jesus Christ, and bless them in 
+        	his name” (<a href="http://www.lds.org/scriptures/dc-testament/dc/20.70?lang=eng#70">D&amp;C 20:70</a>). 
+        	In conformity with this revelation, only Melchizedek Priesthood holders may participate in 
+        	naming and blessing children. Priesthood leaders should inform members of this instruction before 
+        	their children are named and blessed. While preserving the sacred nature of the blessing, leaders 
+        	should make every reasonable effort to avoid embarrassment or offense to individuals or families.</p>
+        
+        	<p>Children are normally named and blessed during fast and testimony meeting in the ward where 
+        	the parents are members of record.</p>
+        	
+        	<p>Before a child is blessed, the ward clerk prepares a Child Blessing Record. After the blessing, 
+        	the clerk ensures that this form is complete, and he processes or distributes it according to 
+        	instructions with the form. The clerk also prepares a blessing certificate. The bishop signs the 
+        	certificate, and he or the clerk gives it to the child’s parent(s) or guardian(s).</p>
+			
+			<p>If a baby is born out of wedlock, the name on the membership record and certificate of blessing 
+			should match the name on the birth certificate or civil birth registry. If a birth certificate or 
+			civil birth registry does not exist, the naming conventions of the local culture are used.</p>
+			        	
+		]]>
+    </string>
+    
+    <string name="baptism">        
+        <![CDATA[
+        
+        	<p><b>Baptism</b></p>
+        
+	        <p>The person performing the ordinance:</p>
+			
+			<b>1.</b> Stands in the water with the person to be baptized.<br />
+			<b>2.</b> Holds the person’s right wrist with his left hand (for convenience and safety); 
+			the person who is being baptized holds the priesthood holder’s left wrist with his or 
+			her left hand.<br />
+			<b>3.</b> Raises his right arm to the square.<br />
+			<b>4.</b> States the person’s full name and says, “Having been commissioned of Jesus Christ, 
+			I baptize you in the name of the Father, and of the Son, and of the Holy Ghost. Amen” 
+			(<a href="http://www.lds.org/scriptures/dc-testament/dc/20.73?lang=eng#73">D&amp;C 20:73</a>).<br />
+			<b>5.</b> Has the person hold his or her nose with the right hand (for convenience); 
+			then the priesthood holder places his right hand high on the person’s back and immerses 
+			the person completely, including the person’s clothing.<br />
+			<b>6.</b> Helps the person come up out of the water.
+			
+			<p><i>Under the direction of the presiding authority,</i> a worthy priest or man who holds the Melchizedek 
+			Priesthood may perform a baptism. <p>
+        
+        	<p>Convert baptisms are usually performed by a priesthood holder in the ward or by one of the 
+        	missionaries who taught the person. A convert may also request that another qualified member 
+        	perform the baptism.</p>
+        
+		]]>
+    </string>
+    
+    <string name="confirmation">        
+        <![CDATA[
+        
+        	<p><b>Confirmation</b></p>
+        
+	        <p>The person performing the ordinance:</p>
+			
+			<b>1.</b> States the person’s full name.<br />
+			<b>2.</b> States that the ordinance is performed by the authority of the Melchizedek Priesthood.<br />
+			<b>3.</b> Confirms the person a member of The Church of Jesus Christ of Latter-day Saints.<br />
+			<b>4.</b> Uses the words “Receive the Holy Ghost” (not “receive the gift of the Holy Ghost”).<br />
+			<b>5.</b> Gives a priesthood blessing as the Spirit directs.<br />
+			<b>6.</b> Closes in the name of Jesus Christ.
+			
+			<p>A person is confirmed a member of the Church and receives the gift of the Holy Ghost after 
+			being baptized (see 
+			<a href="http://www.lds.org/scriptures/dc-testament/dc/20.41?lang=eng#41">D&amp;C 20:41</a>). 
+			A person becomes a member of the Church only after the ordinances of baptism and confirmation 
+			are both completed and properly recorded (see 
+			<a href="https://www.lds.org/scriptures/nt/john/3.5?lang=eng#4">John 3:5</a>; 
+			<a href="https://www.lds.org/scriptures/dc-testament/dc/33.11?lang=eng#10">D&amp;C 33:11</a>).</p>
+			
+			<p>The bishop holds the keys for confirming 8-year-old members of record. The mission president 
+			holds the keys for confirming converts. However, the bishop oversees the performance of this 
+			ordinance, whether it is for an 8-year-old member of record or a convert. The bishop ensures 
+			that it is performed soon after baptism.</p>
+			
+			<p>Eight-year-old members of record may be confirmed at the baptismal service or in a sacrament 
+			meeting in the ward where they live, preferably a fast and testimony meeting.</p>
+			
+			<p>Converts are confirmed in any sacrament meeting in the ward where they live, preferably on 
+			the Sunday following their baptism. Converts are not confirmed at the baptismal service.</p>
+			
+			<p>At least one member of the bishopric participates in this ordinance. When missionary elders 
+			have taught a convert, the bishop should invite them to participate.</p>
+			
+			<p>The bishop does not conduct a separate interview for this ordinance.</p>
+        
+		]]>
+    </string>
+    
+    <string name="dedicating_graves">
+        <![CDATA[
+        
+        	<p><b>Dedicating Graves</b></p>
+        
+	        <p>The person performing the ordinance:</p>
+			
+			<b>1.</b> Addresses Heavenly Father.<br />
+			<b>2.</b> States that he is acting by the authority of the Melchizedek Priesthood.<br />
+			<b>3.</b> Dedicates and consecrates the burial plot as the resting place for the body of the deceased.<br />
+			<b>4.</b> Prays that the place will be hallowed and protected until the Resurrection (where appropriate).<br />
+			<b>5.</b> Asks the Lord to comfort the family and expresses other thoughts as the Spirit directs.<br />
+			<b>6.</b> Closes in the name of Jesus Christ.
+			
+			<p>A person who dedicates a grave must hold the Melchizedek Priesthood and <i>must be authorized by the 
+			priesthood officer who conducts the service.</i></p>
+        
+        	<p>If the family prefers, a graveside prayer rather than a dedicatory prayer may be offered.</p>
+			
+			<p>If a Church member’s body is cremated, the presiding officer may use his judgment in 
+			determining whether to dedicate the place where the ashes are kept. He takes into account 
+			the desires of the family, local customs, and local laws. If the place is dedicated, the 
+			priesthood holder may adapt the instructions for dedicating a grave.</p>
+        
+		]]>
+    </string>
+    
+    
+    <string name="dedicating_homes">        
+        <![CDATA[
+        
+        	<p><b>Dedicating Homes</b></p>
+        
+	        <p>Church members may dedicate their homes as sacred edifices where the Holy Spirit can reside 
+	        and where family members can worship, find safety from the world, grow spiritually, and prepare 
+	        for eternal family relationships. Homes need not be free of debt to be dedicated. Unlike Church 
+	        buildings, homes are not consecrated to the Lord.</p>
+
+			<p>A Melchizedek Priesthood holder may dedicate a home by the power of the priesthood. If there 
+			is not a Melchizedek Priesthood holder in the home, a family might invite a close relative, a 
+			home teacher, or another Melchizedek Priesthood holder to dedicate the home. Or a family might 
+			gather and offer a prayer that includes the elements mentioned in the preceding paragraph and 
+			other words as the Spirit directs.</p>
+        
+		]]>
+    </string>
+    
+    
+    <string name="sacrament">        
+        <![CDATA[
+        
+        	<p><b>Sacrament</b></p>
+        
+	        <p><b>Blessing the bread</b></p>
+	        
+	        <p>“O God, the Eternal Father, we ask thee in the name of thy Son, Jesus Christ, to bless and 
+	        sanctify this bread to the souls of all those who partake of it, that they may eat in remembrance 
+	        of the body of thy Son, and witness unto thee, O God, the Eternal Father, that they are willing 
+	        to take upon them the name of thy Son, and always remember him and keep his commandments which 
+	        he has given them; that they may always have his Spirit to be with them. Amen” (
+			<a href="http://www.lds.org/scriptures/dc-testament/dc/20.77?lang=eng#77">D&amp;C 20:77</a> and 
+			<a href="http://www.lds.org/scriptures/bofm/moro/4.1-3?lang=eng">Moroni 4</a>).<p>
+	        
+	        <p><b>Blessing the water</b></p>
+			
+			<p>“O God, the Eternal Father, we ask thee in the name of thy Son, Jesus Christ, to bless and 
+			sanctify this [water] to the souls of all those who drink of it, that they may do it in 
+			remembrance of the blood of thy Son, which was shed for them; that they may witness unto thee, 
+			O God, the Eternal Father, that they do always remember him, that they may have his Spirit to be 
+			with them. Amen” 
+			(<a href="http://www.lds.org/scriptures/dc-testament/dc/20.79?lang=eng#79">D&amp;C 20:79</a> and 
+			<a href="http://www.lds.org/scriptures/bofm/moro/5.1-2?lang=eng">Moroni 5</a>).</p>
+        
+        	<p>Priests and Melchizedek Priesthood holders may bless the sacrament. Deacons, teachers, priests, 
+        	and Melchizedek Priesthood holders may pass the sacrament.</p>
+			
+			<p>As the congregation sings the sacrament hymn, the priesthood holders who will bless the sacrament 
+			reverently stand, remove the cloth that covers the bread trays, and break the bread into bite-sized 
+			pieces. When they finish breaking the bread, they sit down and join in singing the hymn. Vocal solos 
+			or instrumental music may not replace this hymn.</p>
+			
+			<p>Following the hymn, the person who blesses the bread kneels and offers the sacrament prayer for 
+			the bread. The bishop 
+			makes sure they are spoken clearly, accurately, and with dignity. If the person who blesses the 
+			sacrament makes an error in the wording but corrects it himself, no further correction is required. 
+			If the person does not correct an error, the bishop indicates that he should repeat the prayer correctly. 
+			In doing so, the bishop should be careful to avoid causing embarrassment or distracting from the 
+			sacred nature of the ordinance.</p>
+			
+			<p>After the prayer, deacons or other priesthood holders pass the bread to the congregation in a 
+			reverent and orderly manner. The presiding officer receives the sacrament first. The bishop (or a 
+			counselor in his absence) presides at the sacrament meeting unless a member of the stake presidency, 
+			an Area Seventy, or a General Authority is sitting on the stand. A high councilor does not preside 
+			and does not receive the sacrament first.</p>
+			
+			<p>While the presiding officer is receiving the sacrament, others who are passing the sacrament may 
+			walk to their designated places.</p>
+			
+			<p>After a priesthood holder hands a sacrament tray to a member, others may pass the tray from one 
+			to another for convenience.</p>
+			
+			<p>When brethren finish passing the bread, they return the trays to the sacrament table. Those 
+			officiating at the sacrament table place the cloth over the bread trays and uncover the water trays. 
+			The person who blesses the water then kneels and offers the sacrament prayer for the water, 
+			substituting the word water for wine.</p>
+			
+			<p>After the prayer, deacons or other priesthood holders pass the water to the congregation. When 
+			they finish, they return the trays to the sacrament table, wait for the officiators to cover the trays, 
+			then reverently take their seats.</p>
+			
+			<p>Everyone who attends the meeting should be reverent during the entire ordinance of blessing and 
+			passing the sacrament.</p>
+			
+			<p>No music should be played during the prayer, while the sacrament is being passed, or as a postlude 
+			after the sacrament is passed.</p>
+
+
+		]]>
+    </string>
+    
+    <string name="blessings_in_general">        
+        <![CDATA[
+        
+        	<p><b>General Instructions</b></p>
+        
+	        <p>An ordinance is a sacred act, such as baptism, that is performed by the authority of the priesthood. 
+	        The ordinances of baptism, confirmation, Melchizedek Priesthood ordination (for men), the temple endowment, 
+	        and temple sealing are required for exaltation for all accountable persons. These are called the saving 
+	        ordinances. As part of each saving ordinance, the recipient makes covenants with God.</p>
+
+			<p>Performance of a saving ordinance requires authorization from a priesthood leader who holds the appropriate 
+			keys or who functions under the direction of a person who holds those keys. Such authorization is also required 
+			for naming and blessing a child, dedicating a grave, giving a patriarchal blessing, and preparing, blessing, 
+			and passing the sacrament. Melchizedek Priesthood holders may consecrate oil, administer to the sick, give 
+			father’s blessings, and give other blessings of comfort and counsel without first seeking authorization from 
+			a priesthood leader.</p>
+
+			<p>Brethren who perform ordinances and blessings should prepare themselves by living worthily and striving to 
+			be guided by the Holy Spirit. They should perform each ordinance or blessing in a dignified manner, making sure 
+			it meets the following requirements: </p>
+
+			<b>1.</b> It should be performed in the name of Jesus Christ. <br />
+			<b>2.</b> It should be performed by the authority of the priesthood. <br />
+			<b>3.</b> It should be performed with any necessary procedures, such as using specified words or using 
+			consecrated oil.<br />
+			<b>4.</b> It should be authorized by the presiding authority who holds the proper keys (normally the 
+			bishop or stake president), if necessary according to the instructions in this chapter.
+			
+			<p>A priesthood leader who oversees an ordinance or blessing ensures that the person who performs it has the 
+			necessary priesthood authority, is worthy, and knows and follows the proper procedures. Leaders also seek to 
+			make the ordinance or blessing a reverent and spiritual experience.</p>
+
+			<p>When ordinances or blessings are performed in sacrament meeting, the bishop ensures that they are performed 
+			properly. To avoid embarrassing a priesthood holder, the bishop quietly corrects errors only if essential 
+			elements of the ordinance or blessing are incorrect.</p>
+
+			<p>Those who give priesthood blessings speak words of blessing (“I [or we] bless you that …”) rather than 
+			saying a prayer (“Heavenly Father, please bless this person that …”).</p>
+
+		]]>
+    </string>
+    
+    <!-- Ordinance.java Strings -->
+    <string name="error">An Error Has Occured</string>
+    
+    <!-- about_lds.xml Strings -->
+    <string name="alternate_text_on_about_lds">picture of application icon</string>
+    <string name="version">Version</string>   <!-- version also used in about_lds.xml Strings -->
+    <string name="copy_right">2012 Klapheck Apps</string>
+    <string name="send_feedback">Send Feedback</string>
+    
+    <!-- about_lds.xml Strings -->   
+    <string name="rate">From 1 to 10, I rate this app: </string>
+    <string name="message">message:</string>
+    
+    <!-- MainMenu.java Strings -->
+    <string name="discovered">I discovered LDS Ordinances.</string>
+    
+    <!-- open_source.xml Strings -->
+    <string name="open_source_initiative">Source</string>
+    <string name="open_source_title">References</string>
+    
+    <!-- OpenSource.java Strings -->
+    <string name="open_source_logo_discription">Open Source Initiative logo</string>
+    <string name="java_source">Java source code</string>
+    <string name="lds_org">LDS.org - content</string>
+    <string name="app_icon">Application icon source</string>
+    <string name="lds_info">LDS Info (Android App - inspiration)</string>
+    <string name="lds_priesthood_ord">LDS Priesthood Ordinances (iPhone App - inspiration)</string>
+    
+    <!-- main_menu.xml Strings -->
+    <string name="about_us">About Us</string>
+    <string name="share">Share</string>
+    <string name="blessings">Blessings</string>
+    <string name="open_source">Open-Source</string>
+    <string name="exit">Exit</string>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+     <item
+        android:id="@+id/aboutUs"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:numericShortcut="1"
+        android:title="@string/about_us"
+        android:showAsAction="ifRoom|withText"
+        >
+    </item>
+    <item
+        android:id="@+id/share"
+        android:numericShortcut="2"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/share"
+        android:showAsAction="ifRoom|withText"
+        >
+    </item>
+    <item
+        android:id="@+id/blessings_in_general"
+        android:numericShortcut="3"
+        android:title="@string/blessings">
+    </item>
+    <item
+        android:id="@+id/openSource"
+        android:numericShortcut="4"
+        android:title="@string/open_source">
+    </item>
+    <item
+        android:id="@+id/exit"
+        android:numericShortcut="5"
+        android:title="@string/exit">
+    </item>
+
+</menu>
