@@ -68,6 +68,10 @@ public class MainMenu extends ListActivity{
 			getResources().getString(R.string.DedicatingGraves)  //DedicatingGraves
         };
         
+        
+        
+        
+        
         setListAdapter(new ArrayAdapter<String>(this,
 	            android.R.layout.simple_list_item_activated_1, blessingName));
         
@@ -148,6 +152,10 @@ public class MainMenu extends ListActivity{
 		case R.id.blessings_in_general:
 			Intent bless = new Intent("com.klapheck.priesthoodordinances.BlessingsInGeneral");
 			startActivity(bless);
+			break;
+		case R.id.preferences:
+			Intent prefrences = new Intent("com.klapheck.priesthoodordinances.Prefs");
+			startActivity(prefrences);
 			break;
 		case R.id.openSource:
 			Intent pref = new Intent("com.klapheck.priesthoodordinances.OpenSource");

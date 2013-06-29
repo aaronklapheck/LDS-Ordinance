@@ -23,13 +23,18 @@
         android:title="@string/blessings">
     </item>
     <item
-        android:id="@+id/openSource"
+        android:id="@+id/preferences"
         android:numericShortcut="4"
+        android:title="@string/preferences">
+    </item>
+    <item
+        android:id="@+id/openSource"
+        android:numericShortcut="5"
         android:title="@string/open_source">
     </item>
     <item
         android:id="@+id/exit"
-        android:numericShortcut="5"
+        android:numericShortcut="6"
         android:title="@string/exit">
     </item>
 

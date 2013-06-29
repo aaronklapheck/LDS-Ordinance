@@ -562,7 +562,12 @@
     <string name="about_us">Sobre nosotros</string>
     <string name="share">Share</string>
     <string name="blessings">Bendiciones</string>
+    <string name="preferences">Preferencia</string>
     <string name="open_source">Open-Source</string>
     <string name="exit">Salida</string>
+    
+    <!-- prefs.xml Strings -->
+    <string name="language">Idioma</string>
+    <string name="language_select">Seleccionar el idioma</string>
 
 </resources>
