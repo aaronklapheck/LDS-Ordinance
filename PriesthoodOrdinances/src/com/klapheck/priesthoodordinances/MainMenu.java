@@ -1,21 +1,16 @@
 package com.klapheck.priesthoodordinances;
 
-import java.util.Locale;
-
 import com.google.analytics.tracking.android.EasyTracker;
 
 import android.app.ListActivity;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.res.Configuration;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Toast;
 
 public class MainMenu extends ListActivity{
 
@@ -74,33 +69,9 @@ public class MainMenu extends ListActivity{
         };
         
         
-        // Use value of language in preference menu.
-        final String native_lang = Locale.getDefault().getDisplayLanguage();
         
-        // remove toast when completed.
-        Toast.makeText(getApplicationContext(), native_lang, Toast.LENGTH_SHORT).show();
         
-        SharedPreferences getPref = PreferenceManager
-				.getDefaultSharedPreferences(getBaseContext());
-		String pref_language = getPref.getString("language_list", native_lang);
-		
-		if (pref_language == "English") {
-			
-		}
-		
-
-		String languageToLoad  = "en_US"; // your language
-	    Locale locale = new Locale(languageToLoad); 
-	    Locale.setDefault(locale);
-	    Configuration config = new Configuration();
-	    config.locale = locale;
-	    getBaseContext().getResources().updateConfiguration(config, 
-	      getBaseContext().getResources().getDisplayMetrics());
-	    this.setContentView(R.layout.main);
-		
-	    
-	    
-		// Populates the menu at the beginning of the program
+        
         setListAdapter(new ArrayAdapter<String>(this,
 	            android.R.layout.simple_list_item_activated_1, blessingName));
         

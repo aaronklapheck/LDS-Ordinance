@@ -5,8 +5,8 @@
         <item >Espanol</item>
     </string-array>
     <string-array name="lValues">
-        <item >English</item>
-        <item >Espanol</item>
+        <item >english</item>
+        <item >espanol</item>
     </string-array>
     
 </resources>
