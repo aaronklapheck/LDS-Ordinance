@@ -73,12 +73,12 @@ public class MainMenu extends ListActivity{
         
         // allow user to long-click items in list and get displayed a CAB
         // see AndroidTutorial class: ActionBar for details.
-        /*ListView lv = getListView();
+        ListView lv = getListView();
 	    lv.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE_MODAL);
 	    lv.setMultiChoiceModeListener(new ModeCallback());
 	    setListAdapter(new ArrayAdapter<String>(this,
 	            android.R.layout.simple_list_item_activated_1, classes));
-        */
+        
     }
     
     
@@ -182,11 +182,11 @@ public class MainMenu extends ListActivity{
      *
      */
 	// see AndroidTutorial class: ActionBar for details.
-   /* private class ModeCallback implements ListView.MultiChoiceModeListener {
+    private class ModeCallback implements ListView.MultiChoiceModeListener {
 
-    	*//**
+    	/**
     	 * Populates the CAB using a menu.xml document
-    	 *//*
+    	 *//
 	    public boolean onCreateActionMode(ActionMode mode, android.view.Menu menu) {
 	        MenuInflater inflater = getMenuInflater();
 	        inflater.inflate(R.menu.blessings_action_menu, menu);
@@ -194,9 +194,9 @@ public class MainMenu extends ListActivity{
 	        return true;
 	    }
 
-	    *//**
+	    /**
 	     * Defines the outcomes when a user clicks a item in the CAB
-	     *//*
+	     */
 	    public boolean onActionItemClicked(ActionMode mode, MenuItem item) {
 	        switch (item.getItemId()) {
 	        case R.id.share:
@@ -216,9 +216,9 @@ public class MainMenu extends ListActivity{
 	    public void onDestroyActionMode(ActionMode mode) {
 	    }
 	    
-	    *//**
+	    /**
 	     * Defines the text in the subtitle when the user selects more or less items. 
-	     *//*
+	     */
 	    public void onItemCheckedStateChanged(ActionMode mode,
 	            int position, long id, boolean checked) {
 	        final int checkedCount = getListView().getCheckedItemCount();
