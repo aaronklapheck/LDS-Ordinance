@@ -537,12 +537,7 @@
     <string name="about_us">About Us</string>
     <string name="share">Share</string>
     <string name="blessings">Blessings</string>
-    <string name="preferences">Preferences</string>
     <string name="open_source">Open-Source</string>
     <string name="exit">Exit</string>
-    
-    <!-- prefs.xml Strings -->
-    <string name="language">Language</string>
-    <string name="language_select">Select language</string>
 
 </resources>
