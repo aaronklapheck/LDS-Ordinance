@@ -539,5 +539,9 @@
     <string name="blessings">Blessings</string>
     <string name="open_source">Open-Source</string>
     <string name="exit">Exit</string>
+    
+    <!-- blessings_action_menu.xml Strings -->
+    <string name="move_up">Move Up</string>
+    <string name="move_down">Move Down</string>
 
 </resources>

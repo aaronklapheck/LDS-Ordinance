@@ -6,11 +6,13 @@ import android.app.ListActivity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.ActionMode;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class MainMenu extends ListActivity{
 
@@ -40,9 +42,12 @@ public class MainMenu extends ListActivity{
 	
 	
     /** Called when the activity is first created. */
-    @Override
+	@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        
+	    /*setContentView(R.layout.list_view);
+	    final ListView lview = (ListView) findViewById(R.id.listview);*/
         
         someData = getSharedPreferences(fileName, 0);
         
@@ -53,33 +58,52 @@ public class MainMenu extends ListActivity{
     	 * run time. This is likely due to the language preference not yet being established. 
     	 * After moving this string to this location it seams to work reliably. 
     	 */
-        String blessingName[] = {
-	        getResources().getString(R.string.AnointingOil), //AnointingOil
-			getResources().getString(R.string.SealingAnointing), //SealingAnointing
-			getResources().getString(R.string.ConsecratingOil), //ConsecratingOil
-			getResources().getString(R.string.ConferringPriesthood), //ConferringPriesthood
-			getResources().getString(R.string.SettingApart), //Setting Apart
-			getResources().getString(R.string.FatherBlessing), //FatherBlessing
-			getResources().getString(R.string.NamingChildren), //NamingChildren
-			getResources().getString(R.string.Baptism), //Baptism
-			getResources().getString(R.string.Confirmation), //Confirmation
-			getResources().getString(R.string.Sacrament), //Sacrament
-			getResources().getString(R.string.DedicatingHomes), //DedicatingHomes
-			getResources().getString(R.string.DedicatingGraves)  //DedicatingGraves
+        int blessingName[] = {
+	        R.string.AnointingOil, //AnointingOil
+			R.string.SealingAnointing, //SealingAnointing
+			R.string.ConsecratingOil, //ConsecratingOil
+			R.string.ConferringPriesthood, //ConferringPriesthood
+			R.string.SettingApart, //Setting Apart
+			R.string.FatherBlessing, //FatherBlessing
+			R.string.NamingChildren, //NamingChildren
+			R.string.Baptism, //Baptism
+			R.string.Confirmation, //Confirmation
+			R.string.Sacrament, //Sacrament
+			R.string.DedicatingHomes, //DedicatingHomes
+			R.string.DedicatingGraves  //DedicatingGraves
         };
         
-        setListAdapter(new ArrayAdapter<String>(this,
-	            android.R.layout.simple_list_item_activated_1, blessingName));
         
-        // allow user to long-click items in list and get displayed a CAB
-        // see AndroidTutorial class: ActionBar for details.
+        int [][] intMatrix = new int[blessingName.length][2];
+        
+        for( int i = 0 ; i < blessingName.length ; i++ ) {
+        	intMatrix[i][0] = blessingName[i];
+        }
+        for( int i = 0 ; i < blessingContent.length ; i++ ) {
+        	intMatrix[i][1] = blessingContent[i];
+        }
+        
+        
+        String blessingNameString[] = new String[blessingName.length];
+        
+        // Takes the blessing content pointer and turns it into its string value.
+        for( int i = 0 ; i < blessingName.length ; i++ ) {
+        	blessingNameString[i] = getResources().getString(blessingName[i]);
+        }
+        
+        
+        // allow user to long-click items in list and get displayed a CAB.
         ListView lv = getListView();
 	    lv.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE_MODAL);
 	    lv.setMultiChoiceModeListener(new ModeCallback());
-	    setListAdapter(new ArrayAdapter<String>(this,
-	            android.R.layout.simple_list_item_activated_1, classes));
+	    
+	    
+	    final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
+	    		R.layout.list_view, blessingNameString);
+		setListAdapter(adapter);
         
     }
+    
     
     
     @Override
@@ -177,22 +201,26 @@ public class MainMenu extends ListActivity{
     
     /**
      * Allow user to long-click items in list and get displayed a CAB.
-     * Could not get this to work properly.
      * @author Aaron
      *
      */
-	// see AndroidTutorial class: ActionBar for details.
     private class ModeCallback implements ListView.MultiChoiceModeListener {
 
     	/**
-    	 * Populates the CAB using a menu.xml document
-    	 *//
+    	 * Populates the CAB using blessings_action_menu.xml document
+    	 */
 	    public boolean onCreateActionMode(ActionMode mode, android.view.Menu menu) {
 	        MenuInflater inflater = getMenuInflater();
 	        inflater.inflate(R.menu.blessings_action_menu, menu);
 	        mode.setTitle("Select Items");
 	        return true;
 	    }
+	    
+	    public boolean onPrepareActionMode(ActionMode mode,
+				android.view.Menu menu) {
+			// TODO Auto-generated method stub
+			return false;
+		}
 
 	    /**
 	     * Defines the outcomes when a user clicks a item in the CAB
@@ -235,12 +263,6 @@ public class MainMenu extends ListActivity{
 	        }
 	    }
 
-		public boolean onPrepareActionMode(ActionMode mode,
-				android.view.Menu menu) {
-			// TODO Auto-generated method stub
-			return false;
-		}
-
-	}*/
+	}
     
 }

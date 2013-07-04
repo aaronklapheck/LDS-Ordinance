@@ -565,4 +565,8 @@
     <string name="open_source">Open-Source</string>
     <string name="exit">Salida</string>
 
+    <!-- blessings_action_menu.xml Strings -->
+    <string name="move_up">Subir</string>
+    <string name="move_down">Bajar</string>
+    
 </resources>

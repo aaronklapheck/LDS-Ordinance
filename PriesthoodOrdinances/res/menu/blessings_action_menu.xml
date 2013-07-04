@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
     
-    
+    <item
+        android:id="@+id/moveUp"
+        android:icon="@android:drawable/arrow_up_float"
+        android:numericShortcut="1"
+        android:title="@string/move_up"
+        android:showAsAction="always"
+        >
+    </item>
+    <item
+        android:id="@+id/moveDown"
+        android:numericShortcut="2"
+        android:icon="@android:drawable/arrow_down_float"
+        android:title="@string/move_down"
+        android:showAsAction="always"
+        >
+    </item>
     
 
 </menu>
