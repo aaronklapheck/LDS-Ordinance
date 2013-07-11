@@ -1,6 +1,5 @@
 package com.klapheck.priesthoodordinances;
 
-import java.util.Arrays;
 import com.google.analytics.tracking.android.EasyTracker;
 
 import android.app.ListActivity;
@@ -112,29 +111,6 @@ public class MainMenu extends ListActivity{
 		// Displays the list of blessing in the view using an adapter.
 		setListAdapter(new ArrayAdapter<String>(this,
 				android.R.layout.simple_list_item_activated_1, blessingNameFinal));
-	}
-	
-	
-	
-	/**
-	 * Input a int array and output a single string
-	 * */
-	private void testingCode(int codeToTest){
-		switch(codeToTest){
-		case 0:
-			// Test storeIntArray
-			int[] orderSet = {11, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-			storeIntArray(orderSet);
-			break;
-		case 1:
-			// Test clearIntArray
-			clearIntArray();
-			break;
-		case 2:
-			
-			
-			break;
-		}
 	}
 	
 	
