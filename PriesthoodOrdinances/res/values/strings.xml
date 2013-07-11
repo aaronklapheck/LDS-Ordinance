@@ -18,6 +18,17 @@
 	<string name="DedicatingHomes">Dedicating Homes</string>
 	<string name="DedicatingGraves">Dedicating Graves</string>
 	
+	<!-- CAB text used in MainMenu -->
+	<string name="select_items">Select Ordinance</string>
+	<string name="cant_move_up">Can\'t move top ordinance up</string>
+	<string name="moved_up">Ordinance moved up</string>
+	<string name="moved_up_plural">Ordinances moved up</string>
+	<string name="cant_move_down">Can\'t move bottom ordinance down</string>
+	<string name="moved_down">Ordinance moved down</string>
+	<string name="moved_down_plural">Ordinances moved down</string>
+	<string name="one_selected">1 Ordinance selected</string>
+	<string name="items_selected">Ordinances selected</string>
+	
 	
 	<!-- Text used to fill content in blessings.xml and Ordinance.java -->
     <string name="anointing_oil">        
@@ -506,7 +517,7 @@
     </string>
     
     <!-- Ordinance.java Strings -->
-    <string name="error">An Error Has Occured</string>
+    <string name="error">An Error Has Occurred</string>
     
     <!-- about_lds.xml Strings -->
     <string name="alternate_text_on_about_lds">picture of application icon</string>
@@ -543,5 +554,6 @@
     <!-- blessings_action_menu.xml Strings -->
     <string name="move_up">Move Up</string>
     <string name="move_down">Move Down</string>
+    <string name="default_order">Default Order</string>
 
 </resources>

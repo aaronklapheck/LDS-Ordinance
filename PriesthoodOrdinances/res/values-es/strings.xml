@@ -14,10 +14,22 @@
 	<string name="FatherBlessing">Bendiciones de consuelo y de consejo</string>
 	<string name="NamingChildren">Nombre y bendecir a un niño pequeño</string>
 	<string name="Baptism">Bautismo</string>
-	<string name="Confirmation">confirmación</string>
+	<string name="Confirmation">Confirmación</string>
 	<string name="Sacrament">Santa Cena</string>
 	<string name="DedicatingHomes">Dedicar hogares</string>
 	<string name="DedicatingGraves">Dedicar sepulturas</string>
+	
+		
+	<!-- CAB text used in MainMenu -->
+	<string name="select_items">seleccione ordenanza</string>
+	<string name="cant_move_up">No se puede mover superior ordenanza hasta</string>
+	<string name="moved_up">Ordenanza subido</string>
+	<string name="moved_up_plural">Ordenanzas subido</string>
+	<string name="cant_move_down">No se puede mover fondo ordenanza abajo</string>
+	<string name="moved_down">Ordenanza bajar</string>
+	<string name="moved_down_plural">Ordenanzas bajar</string>
+	<string name="one_selected">1 Ordenanza seleccionado</string>
+	<string name="items_selected">Ordenanzas seleccionado</string>
     
 	
 	<!-- Text used to fill content in blessings.xml and Ordinance.java -->
@@ -568,5 +580,6 @@
     <!-- blessings_action_menu.xml Strings -->
     <string name="move_up">Subir</string>
     <string name="move_down">Bajar</string>
+    <string name="default_order">orden defecto</string>
     
 </resources>

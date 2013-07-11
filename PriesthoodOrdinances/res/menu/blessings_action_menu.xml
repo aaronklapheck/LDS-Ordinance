@@ -17,6 +17,13 @@
         android:showAsAction="always"
         >
     </item>
+    <item
+        android:id="@+id/defaultOrder"
+        android:numericShortcut="3"
+        android:title="@string/default_order"
+        android:showAsAction="always"
+        >
+    </item>
     
 
 </menu>
