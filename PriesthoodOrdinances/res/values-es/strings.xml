@@ -584,11 +584,6 @@
     
     <!-- blessings_menu.xml Strings -->
     <string name="enlarge_text">Agrandar Texto</string>
-    
-    <!-- Ordinance.java Strings -->
-    <string name="text_small">Pequeño</string>
-    <string name="text_medium">Medio</string>
-    <string name="text_large">Grande</string>
-    <string name="text_default">Defecto</string>
+    <string name="shrink_text">Encoger Texto</string>
     
 </resources>

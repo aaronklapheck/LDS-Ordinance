@@ -5,11 +5,8 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Html;
 import android.text.method.LinkMovementMethod;
-import android.view.ContextMenu;
-import android.view.ContextMenu.ContextMenuInfo;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,18 +17,16 @@ public class Ordinance extends Activity {
 	private final static String fileName = "MySharedString", stringKey = "SharedInt";
 	private static int getIntegerDefault = R.string.error;
 	private static SharedPreferences someData;
-	private static View lv;
-	private static TextView foo;
+	TextView foo;
 
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		lv = this.findViewById(android.R.id.content);
-		setContentView(lv);
+		setContentView(R.layout.blessings);
 		
-		registerForContextMenu(findViewById(R.id.changeSize));
+		//registerForContextMenu(findViewById(R.id.changeSize));
 
 		someData = getSharedPreferences(fileName, 0);
 
@@ -41,8 +36,10 @@ public class Ordinance extends Activity {
 		foo.setMovementMethod (LinkMovementMethod.getInstance());
 		foo.setText(Html.fromHtml(getString(tvId)));
 		
+		
 	}
 	
+
 
 	@Override
 	protected void onStart() {
@@ -62,7 +59,7 @@ public class Ordinance extends Activity {
 	}
 	
 	
-	/**
+	/*
 	 * Create the main menu action bar in upper portion of the screen.
 	 */
 	@Override
@@ -75,55 +72,28 @@ public class Ordinance extends Activity {
 	}
 	
 	
-	/**
+	/*
 	 * defines what happens when the user clicks on a menu item set up in {@link #onCreateOptionsMenu}
 	 */
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		// TODO Auto-generated method stub
+		int text_size = (int) foo.getTextSize();
 		switch (item.getItemId()) {
-		case R.id.changeSize:
-			// 
-			openContextMenu(Ordinance.lv);
+		case R.id.enlargeSize:
+			// increase text size
+			Toast.makeText(this, "text size is " + text_size, Toast.LENGTH_SHORT).show();
+			foo.setTextSize(text_size/2 + 2);
+			break;
+		case R.id.shrinkSize:
+			// decrease text size
+			Toast.makeText(this, "text size is " + text_size, Toast.LENGTH_SHORT).show();
+			foo.setTextSize(text_size/2 - 2);
+			text_size = (int) foo.getTextSize();
 			break;
 		}
 		return false;
 	}
 	
-	@Override
-	public void onCreateContextMenu(ContextMenu menu, View v,
-	                                ContextMenuInfo menuInfo) {
-	    super.onCreateContextMenu(menu, v, menuInfo);
-	    MenuInflater inflater = getMenuInflater();
-	    inflater.inflate(R.menu.blessings_text_size_menu, menu);
-	}
-	
-	@Override
-	public boolean onContextItemSelected(MenuItem item) {
-	    //AdapterContextMenuInfo info = (AdapterContextMenuInfo) item.getMenuInfo();
-	    switch (item.getItemId()) {
-	        case R.id.small:
-	            //small text
-	        	Toast.makeText(getApplicationContext(), "small", Toast.LENGTH_SHORT);
-	            return true;
-	        case R.id.medium:
-	            //small text
-	        	Toast.makeText(getApplicationContext(), "medium", Toast.LENGTH_SHORT);
-	            return true;
-	        case R.id.large:
-	            //small text
-	        	Toast.makeText(getApplicationContext(), "large", Toast.LENGTH_SHORT);
-	            return true;
-	        case R.id.default_1:
-	            //small text
-	        	Toast.makeText(getApplicationContext(), "default", Toast.LENGTH_SHORT);
-	            return true;
-	        default:
-	            return super.onContextItemSelected(item);
-	    }
-	}
-	
-	
-	
-	
 }
+

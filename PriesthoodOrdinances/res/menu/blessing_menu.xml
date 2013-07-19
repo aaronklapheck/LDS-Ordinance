@@ -2,10 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
     
      <item
-        android:id="@+id/changeSize"
-        android:icon="@android:drawable/ic_menu_zoom"
+        android:id="@+id/enlargeSize"
+        android:icon="@drawable/increase_font"
         android:numericShortcut="1"
         android:title="@string/enlarge_text"
+        android:showAsAction="ifRoom|withText"
+        />
+     <item
+        android:id="@+id/shrinkSize"
+        android:icon="@drawable/decrease_font"
+        android:numericShortcut="2"
+        android:title="@string/shrink_text"
         android:showAsAction="ifRoom|withText"
         />
 
