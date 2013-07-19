@@ -8,7 +8,6 @@ import android.text.method.LinkMovementMethod;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.analytics.tracking.android.EasyTracker;
 
@@ -82,12 +81,10 @@ public class Ordinance extends Activity {
 		switch (item.getItemId()) {
 		case R.id.enlargeSize:
 			// increase text size
-			Toast.makeText(this, "text size is " + text_size, Toast.LENGTH_SHORT).show();
 			foo.setTextSize(text_size/2 + 2);
 			break;
 		case R.id.shrinkSize:
 			// decrease text size
-			Toast.makeText(this, "text size is " + text_size, Toast.LENGTH_SHORT).show();
 			foo.setTextSize(text_size/2 - 2);
 			text_size = (int) foo.getTextSize();
 			break;
