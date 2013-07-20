@@ -6,22 +6,22 @@
     <string name="app_name">LDS Ordenanzas</string>
     
     <!-- Titles used in MainMenu -->
-    <string name="AnointingOil">Ungir con aceite</string>
-    <string name="SealingAnointing">Sellar la unción</string>
-    <string name="ConsecratingOil">Consagrar aceite</string>
-    <string name="ConferringPriesthood">Conferir el sacerdocio y oficio</string>
-    <string name="SettingApart">Apartar a oficiales y a maestros</string>
-	<string name="FatherBlessing">Bendiciones de consuelo y de consejo</string>
-	<string name="NamingChildren">Nombre y bendecir a un niño pequeño</string>
+    <string name="AnointingOil">Ungir con Aaceite</string>
+    <string name="SealingAnointing">Sellar la Unción</string>
+    <string name="ConsecratingOil">Consagrar Aceite</string>
+    <string name="ConferringPriesthood">Conferir el Sacerdocio y Oficio</string>
+    <string name="SettingApart">Apartar a Oficiales y a Maestros</string>
+	<string name="FatherBlessing">Bendiciones de Consuelo y de Consejo</string>
+	<string name="NamingChildren">Nombre y Bendecir a un Niño Pequeño</string>
 	<string name="Baptism">Bautismo</string>
 	<string name="Confirmation">Confirmación</string>
 	<string name="Sacrament">Santa Cena</string>
-	<string name="DedicatingHomes">Dedicar hogares</string>
-	<string name="DedicatingGraves">Dedicar sepulturas</string>
+	<string name="DedicatingHomes">Dedicar Hogares</string>
+	<string name="DedicatingGraves">Dedicar Sepulturas</string>
 	
 		
 	<!-- CAB text used in MainMenu -->
-	<string name="select_items">seleccione ordenanza</string>
+	<string name="select_items">Seleccione Ordenanza</string>
 	<string name="cant_move_up">No se puede mover superior ordenanza hasta</string>
 	<string name="moved_up">Ordenanza subido</string>
 	<string name="moved_up_plural">Ordenanzas subido</string>
@@ -543,13 +543,13 @@
     </string>
     
     <!-- Ordinance.java Strings -->
-    <string name="error">Un error ha ocurrido</string>
+    <string name="error">Un Error Ha Ocurrido</string>
     
     <!-- about_lds.xml Strings -->
     <string name="alternate_text_on_about_lds">foto de applicación icon</string>
     <string name="version">Versión</string>   <!-- version also used in about_lds.xml Strings -->
     <string name="copy_right">2012 Klapheck Apps</string>
-    <string name="send_feedback">Manda información</string>
+    <string name="send_feedback">Manda Información</string>
     
     <!-- version also used in about_lds.xml Strings -->
     <string name="rate">De 1 a 10, yo cloasificar esta aplicación: </string>
@@ -567,8 +567,8 @@
     <string name="java_source">Codo de Java source</string>
     <string name="lds_org">LDS.org - contenido</string>
     <string name="app_icon">Applicación icon source</string>
-    <string name="lds_info">LDS Info (Android aplicación - inspiración)</string>
-    <string name="lds_priesthood_ord">LDS Ordenanzas del Sacerdocio (iPhone aplicación - inspiración)</string>
+    <string name="lds_info">LDS Info (Android App - inspiración)</string>
+    <string name="lds_priesthood_ord">LDS Ordenanzas del Sacerdocio (iPhone App - inspiración)</string>
     
     <!-- main_menu.xml Strings -->
     <string name="about_us">Sobre nosotros</string>
@@ -580,7 +580,7 @@
     <!-- blessings_action_menu.xml Strings -->
     <string name="move_up">Subir</string>
     <string name="move_down">Bajar</string>
-    <string name="default_order">orden defecto</string>
+    <string name="default_order">Orden Defecto</string>
     
     <!-- blessings_menu.xml Strings -->
     <string name="enlarge_text">Agrandar Texto</string>

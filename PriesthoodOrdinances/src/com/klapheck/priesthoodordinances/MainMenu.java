@@ -53,7 +53,7 @@ public class MainMenu extends ListActivity{
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
-		someData = getSharedPreferences(fileName, 0);
+		someData = getSharedPreferences(fileName, MODE_PRIVATE);
 
 		/* Get user order from shared preferences. If not user specified then give it default value. */
 		int[] orderGet = new int[blessingNumber];
