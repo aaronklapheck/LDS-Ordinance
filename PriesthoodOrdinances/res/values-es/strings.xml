@@ -36,7 +36,7 @@
     <string name="anointing_oil">
         <![CDATA[
         
-        	<p><b>Ungir con aceite</b></p>
+        	<p><b>Ungir con Aceite</b></p>
         
 	        <p>La unción la lleva a cabo un poseedor del Sacerdocio de Melquisedec. Él:</p>
 			
@@ -47,7 +47,7 @@
 			<b>5.</b> Termina en el nombre de Jesucristo.
 			
 
-        	<p><b>Bendecir a los enfermos</b></p>
+        	<p><b>Bendecir a los Enfermos</b></p>
 			
 			<p>Solamente los poseedores del Sacerdocio de Melquisedec pueden bendecir a los enfermos o 
 			afligidos. Por lo general, dos o más poseedores del sacerdocio bendicen a los enfermos, pero 
@@ -78,7 +78,7 @@
     <string name="sealing_anointing">        
         <![CDATA[
         
-        	<p><b>Sellar la unción</b></p>
+        	<p><b>Sellar la Unción</b></p>
         
 	        <p>El que sella la unción:</p>
 			
@@ -90,7 +90,7 @@
 			<p>Normalmente dos o más poseedores del Sacerdocio de Melquisedec colocan levemente las manos 
 			sobre la cabeza de la persona.<p>
         
-        	<p><b>Bendecir a los enfermos</b></p>
+        	<p><b>Bendecir a los Enfermos</b></p>
 			
 			<p>Solamente los poseedores del Sacerdocio de Melquisedec pueden bendecir a los enfermos o 
 			afligidos. Por lo general, dos o más poseedores del sacerdocio bendicen a los enfermos, pero 
@@ -123,7 +123,7 @@
     <string name="consecrating_anointing">        
         <![CDATA[
         	
-        	<p><b>Consagrar aceite</b></p>
+        	<p><b>Consagrar Aceite</b></p>
         
 	        <p>Para consagrar aceite, el poseedor del sacerdocio:</p>
 			
@@ -147,7 +147,7 @@
     <string name="conferring_priesthood">        
         <![CDATA[
         
-        	<p><b>Conferir el sacerdocio y ordenar a un oficio</b></p>
+        	<p><b>Conferir el Sacerdocio y Ordenar a un Oficio</b></p>
         
 	        <p>El poseedor del sacerdocio que efectúa la ordenación:</p>
 			
@@ -190,7 +190,7 @@
     <string name="setting_appart">        
         <![CDATA[
         
-        	<p><b>Apartar a oficiales y a maestros</b></p>
+        	<p><b>Apartar a Oficiales y a Maestros</b></p>
         
 	        <p>Entonces el poseedor del sacerdocio que actúa como portavoz:</p>
 			
@@ -228,7 +228,7 @@
     <string name="father_blessings">        
         <![CDATA[
         
-        	<p><b>Bendiciones de padre y otras bendiciones de consuelo y de consejo</b></p>
+        	<p><b>Bendiciones de Padre y Otras Bendiciones de Consuelo y de Consejo</b></p>
         
 	        <p>El poseedor del sacerdocio que vaya a dar la bendición:</p>
 			
@@ -256,7 +256,7 @@
     <string name="blessing_children">        
         <![CDATA[
         	
-        	<p><b>Nombre y bendecir a un niño pequeño</b></p>
+        	<p><b>Nombre y Bendecir a un Niño Pequeño</b></p>
         	
         	<p>La persona que da la bendición:</p>
 
@@ -374,7 +374,7 @@
     <string name="dedicating_graves">        
         <![CDATA[
         
-        	<p><b>Dedicar sepulturas</b></p>
+        	<p><b>Dedicar Sepulturas</b></p>
         
 	        <p>La persona que efectúa la ordenanza:<p/>
 			
@@ -406,7 +406,7 @@
     <string name="dedicating_homes">        
         <![CDATA[
         
-        	<p><b>Dedicar hogares</b></p>
+        	<p><b>Dedicar Hogares</b></p>
         
 	        <p>Los miembros de la Iglesia pueden dedicar sus hogares como edificios sagrados donde el Santo 
 	        Espíritu pueda morar y donde los miembros de la familia puedan adorar, hallar refugio del mundo, 
@@ -429,7 +429,7 @@
         
         	<p><b>Santa Cena</b></p>
         
-	        <p><b>Bendecir el pan</b></p>
+	        <p><b>Bendecir el Pan</b></p>
 	        
 	        <p>“Oh Dios, Padre Eterno, en el nombre de Jesucristo, tu Hijo, te pedimos que bendigas y santifiques 
 	        este pan para las almas de todos los que participen de él, para que lo coman en memoria del cuerpo 
@@ -439,7 +439,7 @@
 			<a href="http://www.lds.org/scriptures/dc-testament/dc/20.77?lang=spa#77">D. y C. 20:77</a>; 
 			<a href="http://www.lds.org/scriptures/bofm/moro/4.1-3?lang=spa">Moroni 4</a>).<p>
 	        
-	        <p><b>Bendecir el agua</b></p>
+	        <p><b>Bendecir el Agua</b></p>
 			
 			<p>“Oh Dios, Padre Eterno, en el nombre de Jesucristo, tu Hijo, te pedimos que bendigas y santifiques 
 			este [agua] para las almas de todos los que lo beban, para que lo hagan en memoria de la sangre de 
@@ -501,7 +501,7 @@
     <string name="blessings_in_general">        
         <![CDATA[
         
-        	<p><b>Instrucciones generales</b></p>
+        	<p><b>Instrucciones Generales</b></p>
         
 	        <p>Una ordenanza es un acto sagrado, como el bautismo, que se efectúa por la autoridad del sacerdocio. 
 	        Las ordenanzas del bautismo, la confirmación, la ordenación al Sacerdocio de Melquisedec (para los hombres), 
@@ -546,14 +546,14 @@
     <string name="error">Un Error Ha Ocurrido</string>
     
     <!-- about_lds.xml Strings -->
-    <string name="alternate_text_on_about_lds">foto de applicación icon</string>
+    <string name="alternate_text_on_about_lds">Foto de applicación icon</string>
     <string name="version">Versión</string>   <!-- version also used in about_lds.xml Strings -->
     <string name="copy_right">2012 Klapheck Apps</string>
     <string name="send_feedback">Manda Información</string>
     
     <!-- version also used in about_lds.xml Strings -->
     <string name="rate">De 1 a 10, yo cloasificar esta aplicación: </string>
-    <string name="message">mensaje:</string>
+    <string name="message">Mensaje:</string>
     
     <!-- MainMenu.java Strings -->
     <string name="discovered">Yo descubri LDS Ordenanzas.</string>

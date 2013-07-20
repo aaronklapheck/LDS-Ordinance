@@ -520,14 +520,14 @@
     <string name="error">An Error Has Occurred</string>
     
     <!-- about_lds.xml Strings -->
-    <string name="alternate_text_on_about_lds">picture of application icon</string>
+    <string name="alternate_text_on_about_lds">Picture of application icon</string>
     <string name="version">Version</string>   <!-- version also used in about_lds.xml Strings -->
     <string name="copy_right">2012 Klapheck Apps</string>
     <string name="send_feedback">Send Feedback</string>
     
     <!-- about_lds.xml Strings -->   
     <string name="rate">From 1 to 10, I rate this app: </string>
-    <string name="message">message:</string>
+    <string name="message">Message:</string>
     
     <!-- MainMenu.java Strings -->
     <string name="discovered">I discovered LDS Ordinances.</string>
